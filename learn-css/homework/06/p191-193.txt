@@ -15,6 +15,6 @@
 
 (6) id="example"
 
-(7) quiz-1.html, mystyle.css 파일 참조
+(7) 06/quiz-1.html, 06/css/mystyle.css 파일 참조
 
 (8) h1, .accent, id

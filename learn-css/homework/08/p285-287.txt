@@ -13,6 +13,6 @@
 
 (6) relative, left
 
-(7) quiz-1.html 파일 참조
+(7) 08/quiz-1.html 파일 참조
 
-(8) 
+(8) 08/quiz-2.html 파일 참조
