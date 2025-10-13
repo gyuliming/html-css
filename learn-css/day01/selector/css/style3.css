@@ -1,0 +1,16 @@
+.container {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.h1 {
+  display: inline-block;
+  color: white;
+  background-color: darkblue;
+}
+
+.span1 {
+  font-weight: bold;
+  color: red;
+}
