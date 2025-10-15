@@ -79,13 +79,13 @@ Day01. 자바스크립트 기초 문제
 
 35. for (const color of colors) {
 
-    console.log(color);
+        console.log(color);
 
     }
 
 36. for (const char of str) {
 
-    console.log(char);
+        console.log(char);
 
     }
 
@@ -99,23 +99,23 @@ Day01. 자바스크립트 기초 문제
 
 38. for (const num in nums) {
 
-    if (num < 3) {
+        if (num < 3) {
 
-        console.log(nums[num]);
+            console.log(nums[num]);
 
-    }
+        }
 
     }
 
 39. for (const num in user) {
 
-    console.log(num + " : " + user[num]);
+        console.log(num + " : " + user[num]);
 
     }
 
 40. arr.forEach(function(num) {
 
-    console.log(num);
+        console.log(num);
 
     });
 
