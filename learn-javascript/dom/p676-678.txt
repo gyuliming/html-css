@@ -25,4 +25,6 @@
 1. textContent => 요소의 텍스트 내용 변경
 2. innerText => 화면에 보이는 텍스트 변경
 
-(6)
+(6) quiz-1.html 파일
+
+(7) quiz-2.html 파일
