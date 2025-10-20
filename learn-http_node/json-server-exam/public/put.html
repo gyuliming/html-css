@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <pre></pre>
+    <script>
+      const xhr = new XMLHttpRequest();
+      // HTTP 요청 초기화
+      // todos 리소스에서 특정번호(=5) 데이터 전체 수정
+
+      xhr.open('PUT', '/todos/5');
+
+      // 요청을 담을 MIME 타입 지정
+      xhr.setRequestHeader('content-type', 'application/json');
+
+      // HTTP 요청 전송
+      xhr.send(JSON.stringify({ id: 5, content: 'react', completed: true }));
+
+      // xhr.onload 이벤트를 이용하여 요청이 성공적으로 완료된 경우 발생
+      xhr.onload = () => {
+        if (xhr.status == 200 || xhr.status == 201) {
+          document.querySelector('pre').textContent = xhr.response;
+        } else {
+          console.error('ERROR', xhr.status, xhr.statusText);
+        }
+      };
+    </script>
+  </body>
+</html>
